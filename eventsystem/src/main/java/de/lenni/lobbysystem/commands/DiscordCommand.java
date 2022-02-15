@@ -20,8 +20,6 @@ public class DiscordCommand implements CommandExecutor {
         Player player = (Player) sender;
 
         if(player.hasPermission("de.lenni.lobbysystem.commands.discord")) {
-            player.setHealth(20d);
-            player.setFoodLevel(20);
             player.sendMessage(LobbySystem.PREFIX + "§b&lDiscord&: &7YourDiscordInvite");
         } else {
             player.sendMessage(LobbySystem.PREFIX + "§aYou don't have permissions for this!");
