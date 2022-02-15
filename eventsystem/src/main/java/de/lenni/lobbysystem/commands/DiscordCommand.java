@@ -1,7 +1,6 @@
 package de.lenni.lobbysystem.commands;
 
 import de.lenni.lobbysystem.LobbySystem;
-import org.bukkit.Sound;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -20,7 +19,7 @@ public class DiscordCommand implements CommandExecutor {
         Player player = (Player) sender;
 
         if(player.hasPermission("de.lenni.lobbysystem.commands.discord")) {
-            player.sendMessage(LobbySystem.PREFIX + "§b&lDiscord&: &7YourDiscordInvite");
+            player.sendMessage(LobbySystem.PREFIX + "§b&lDiscord&8: &7YourDiscordInvite");
         } else {
             player.sendMessage(LobbySystem.PREFIX + "§aYou don't have permissions for this!");
         }
