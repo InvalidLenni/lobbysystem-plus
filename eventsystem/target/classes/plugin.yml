@@ -1,0 +1,21 @@
+name: Eventsystem
+version: 1.0-SNAPSHOT
+main: de.lenni.eventsystem.Eventsystem
+authors: [ lenni ]
+description: Eventsystem
+
+
+commands:
+  heal:
+    description: Healbefehl
+  help:
+    description: Displaying t
+
+
+permissions:
+  de.lenni.eventsystem.heal:
+    description: Mit diesem Befehl kannst du dich heilen!
+    default: op
+  de.lenni.eventsystem.help:
+    description: Mit diesem Command erhältst du die Commandübersicht!
+

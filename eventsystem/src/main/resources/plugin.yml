@@ -1,0 +1,21 @@
+name: Eventsystem
+version: ${project.version}
+main: de.lenni.eventsystem.Eventsystem
+authors: [ lenni ]
+description: Eventsystem
+
+
+commands:
+  heal:
+    description: Heal yourself.
+  help:
+    description: Displaying the commands.
+
+
+permissions:
+  de.lenni.lobbysystem.heal:
+    description: With this command can you heal yourself.
+    default: op
+  de.lenni.lobbysystem.help:
+    description: Just a command overview.
+
